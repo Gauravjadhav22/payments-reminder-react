@@ -1,0 +1,126 @@
+body {
+    padding: 0;
+    margin: 1px;
+    background-color: rgba(11, 22, 65, 0.904);
+}
+
+
+
+section {
+
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 5px solid rgb(100, 206, 224);
+    /* width: auto; */
+    background-color: #128e58bd;
+    padding: 1px 15px;
+    font-weight: 300;
+    font-size: larger;
+    box-shadow: 6px 0px 24px #bbb7b784;
+
+}
+
+
+
+section>h1 {
+    color: white;
+    background-color: rgba(217, 205, 205, 0.221);
+    text-align: center;
+}
+
+section>form {
+    height: 45rem;
+    width: auto;
+    position: relative;
+    padding: px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #e7f5a2ad;
+    flex-direction: column;
+    padding: 0px 0px;
+    box-shadow: 8px 0px 20px 8px #54d1eaa0;
+}
+
+.valid {
+    margin: 0px 10px;
+    color: rgba(41, 58, 255, 0.904);
+}
+
+.hide {
+    display: none;
+
+}
+
+.invalid {
+    margin: 0px 10px;
+    color: rgba(244, 46, 46, 0.893);
+}
+
+form>label {
+    font-size: larger;
+    margin: 0px 15px;
+    margin-top: 50px;
+    margin-bottom: 4px;
+}
+
+form>input {
+    padding: 8px;
+    font-size: larger;
+    width: auto;
+
+}
+
+.errmsg {
+    display: flex;
+    font-weight: 400;
+    color: rgba(223, 68, 2, 0.89);
+
+}
+
+.offscreen {
+    display: none;
+}
+
+
+section form>button {
+    margin-top: 33px;
+    background-color: #37a52d;
+    border: none;
+    padding: 10px 44px;
+    color: white;
+    font-size: larger;
+
+
+}
+
+section form>button:hover {
+    cursor: pointer;
+    background-color: #54bf4ac4;
+}
+
+#uidnote,
+#pwdnote,
+#confirmnote {
+    position: relative;
+    width: fit-content;
+    color: #BF3325;
+    font-size: large;
+    height: 1rem;
+}
+
+
+section>p {
+    font-size: larger;
+
+}
+
+
+.login {
+    height: 40rem;
+}
+
+.loginform {
+    height: 26rem;
+}

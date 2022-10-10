@@ -1,0 +1,226 @@
+.main-footer {
+    background-color: rgba(125, 189, 243, 0.646);
+    color: white;
+    font-size: larger;
+    line-height: 3ch;
+    padding: 5px;
+
+}
+
+.main-footer div>h1 {
+    font-size: xx-large;
+    line-height: 2.5ch;
+    color: rgba(58, 58, 202, 0.733);
+
+}
+
+.main-footer div {
+    line-height: 2.5ch;
+    text-align: center;
+    color: black;
+    font-size: larger;
+    font-weight: 300;
+
+}
+
+
+/* ////////header////// */
+
+.h1 {
+    flex: 2;
+    margin-top: 8px;
+    margin-bottom: 13px;
+    text-decoration: none;
+    width: fit-content;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 2px;
+    padding: 3px;
+    color: white;
+}
+
+.main-header {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    background-color: rgb(76, 152, 200);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.searchbar {
+    background-color: rgb(72, 213, 16);
+    border: 2px solid lightblue;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+
+
+.toggle {
+    display: none;
+
+
+}
+
+.toggle2 {
+    display: none;
+}
+
+
+
+
+
+.search-icon {
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+
+.searchbar>input {
+    padding: 10px;
+    font-size: medium;
+}
+
+.user {
+    flex: 1;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+    align-items: cen;
+    justify-content: space-evenly;
+
+}
+
+
+
+.user>span {
+    flex: 0;
+    display: flex;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    color: blue;
+    color: rgb(28, 28, 95);
+}
+
+
+
+
+.user>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user>div>h4 {
+    font-size: large;
+    font-weight: 100;
+    color: rgb(114, 45, 45);
+}
+
+
+
+
+.pro-icon-main {
+ color: black;
+}
+.pro-icon {
+    height: 25px;
+    cursor: pointer;
+
+    margin-top: 15px;
+    width: 25px;
+    margin-bottom: -20px;
+}
+
+
+.pro-icon-main:hover{
+    color: white !important;
+}
+.bell {
+    position: relative;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
+    text-decoration: underline;
+}
+
+.bell:hover {
+
+    color: white;
+    text-decoration: underline;
+
+}
+
+
+
+.logout {
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+
+}
+
+.logout:hover {
+    color: white;
+}
+
+@media only screen and (max-width: 800px) {
+    .main-header {
+        background-color: rgb(81, 146, 169);
+        display: flex;
+        padding-bottom: 23px;
+        margin-bottom: 12px;
+        flex-direction: column;
+    }
+
+    .toggle {
+        position: absolute;
+        left: 0;
+        top: 0;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 15px;
+    }
+
+    .toggle2 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 15px;
+    }
+
+    .toggle span {
+        background-color: white;
+        padding: 3px 18px;
+        border-radius: 5px;
+        margin: 2px;
+    }
+
+    .toggle2 span {
+        background-color: white;
+        padding: 17px 3px;
+        border-radius: 5px;
+        margin: 2px;
+    }
+}
